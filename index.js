@@ -6,7 +6,7 @@ const port = 3000;
 
 app.use(express.static("public"))
 
-const apiKey = "326acafc283238eed9f545e2899b6cae";
+const apiKey = "ENTER YOUR API KEY";
 
 app.get("/", async (req, res) => {
     const city = req.query.city || "London"; // Default to London if no city is provided
